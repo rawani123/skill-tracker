@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tech Skill Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Tech Skill Tracker</h1>
+  <div>
+    <h2>Global Tracking Controls</h2>
+    <label>
+      <input type="checkbox" id="trackTime" /> Track Time
+    </label>
+    <label>
+      <input type="checkbox" id="trackScroll" /> Track Scroll
+    </label>
+    <button id="saveOptions">Save Options</button>
+  </div>
+  <div>
+    <h2>Per-Site Tracking Controls</h2>
+    <input type="text" id="siteUrl" placeholder="Enter site URL" />
+    <label>
+      <input type="checkbox" id="siteTrackTime" /> Track Time on this site
+    </label>
+    <label>
+      <input type="checkbox" id="siteTrackScroll" /> Track Scroll on this site
+    </label>
+    <button id="saveSiteOptions">Save Site Options</button>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html>

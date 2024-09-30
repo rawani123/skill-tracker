@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tech Skill Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Tech Skill Tracker</h1>
+
+  <!-- Profile Creation Section -->
+  <div>
+    <h2>Create Profile</h2>
+    <input type="text" id="userName" placeholder="Enter your name"/>
+    <input type="email" id="userEmail" placeholder="Enter your email"/>
+    <input type="file" id="profilePicture" accept="image/*"/>
+    <button id="saveProfile">Save Profile</button>
+  </div>
+  
+  <!-- Existing Skill and Activity Tracking UI -->
+  <div>
+    <h2>Your Skills</h2>
+    <ul id="skillsList"></ul>
+    <input type="text" id="newSkill" placeholder="Add new skill"/>
+    <select id="expertiseLevel">
+      <option value="Beginner">Beginner</option>
+      <option value="Intermediate">Intermediate</option>
+      <option value="Expert">Expert</option>
+    </select>
+    <button id="addSkill">Add Skill</button>
+  </div>
+  
+  <button id="exportData">Export Data</button>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
